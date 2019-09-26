@@ -3,15 +3,37 @@
 ## TODOS:
 
 ### Overall and paper writing
-- [x] **Update Project objective**
-- [x] **Outline Project method**
 - [ ] **Outline related work(Get papers)**
 	- [x] Vegard - Deep CNN-Based Framework For Enhanced Aerial Imagery Registration with Applications to UAV Geolocalization
 	- [x] Ole - Vision-based Robot Localization Across Seasons and in Remote Locations
-	- [ ] Håkon
+	- [ ] Håkon 
+- [ ] Write paper draft
+	- [ ] Abstract
+		- [x] Vegard
+		- [ ] Ole
+		- [ ] Håkon
+	- [ ] Introduction
+		- [ ] Vegard
+		- [ ] Ole
+		- [ ] Håkon
+	- [ ] Related Work 
+		- [ ] Vegard 
+		- [ ] Ole 
+		- [ ] Håkon
+	- [ ] Proposition
+		- [ ] Vegard
+		- [ ] Ole
+		- [ ] Håkon
+	- [ ] Experiments and Results
+		- [ ] Vegard
+		- [ ] Ole
+		- [ ] Håkon
+	- [ ] Conclusion
+		- [ ] Vegard
+		- [ ] Ole
+		- [ ] Håkon
 
 ### Implementation
-- [ ] **Gather data possibilities**
 - [ ] Gather, sort and prepare data for ML.
 	- [ ] Contact kartverket
 		- [ ] Get ortho-photos/satellite images

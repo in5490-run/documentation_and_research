@@ -1,0 +1,32 @@
+\documentclass[UKenglish]{ifikompendium}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc,url}
+\usepackage{ifikompendiumforside}
+\usepackage{listings}
+\usepackage{textcomp,varioref,graphicx,csquotes}
+\usepackage{tabularx}
+\usepackage{wrapfig}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[backend=biber,style=numeric]{biblatex} 
+\addbibresource{library.bib}
+\usepackage{color}
+
+\title{RUN - Robust UAV Navigation}
+\subtitle{A Deep CNN-based approach for optimizing Monte Carlo localization with applications to UAV Geolocalization}
+\author{Håkon Haustreis Tønnessen \and Ole Edvin Skjeltorp \and \\ Vegard Bergsvik Øvstegård}
+\date{Fall 2019}
+
+\begin{document}
+
+\ififorside[kind={}]
+
+\input{abstract}
+
+\input{introduction} 	% introduction, the problem
+\input{the_solution} 	% our idea, the details
+\input{results} 		% results from experiments etc
+\input{related_work} 	% related work
+\input{conclusion} 		% conclusion and further work
+
+\end{document}
