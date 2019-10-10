@@ -1,10 +1,11 @@
+\begin{introduction}
 \section{Introduction}     % 3-5 sider
 Write some Introduction here.
 ..
 \subsection{Motivation}
 Write some Motivation here.
 
-\begin{introduction}
+%\begin{introduction}
 Geolocalization is a key feature for unmanned aerial vehicles (UAVs) of both commercial and industrial purpose. In some cases, it serves only as a failsafe for providing information used for retrieving a malfunctioning or crashed UAV. In other cases, such as UAVs designed for searching for missing persons, mapping unknown areas, performing critical military operations in hostile territory, and especially for autonomous UAVs, knowing its position at all times is crucial to perform its intended task. This is a challenge for UAVs relying solely on GPS as means of localization. Localization in GPS-denied environments has become a bottleneck problem for small unmanned aerial vehicles [1](quotation marks?). This motivates for developing alternate localization methods, able to work both alongside and independent of existing ones. For UAVs where real-time localization is critical, robustness is key. Weight, space and size are limited resources on a UAV, meaning the upsides of the functionality must outweigh the downsides of the added hardware. Our proposed method, Monte Carlo Localization [2], only requires orthogonal imagery of the landscape below the drone to determine its position [+høyde/retning/computational power?]. Not only does this provide enhanced robustness to UAVs by preforming geolocalization in GPS-denied environments, it is also applicable as an accuracy enhancer working alongside GPS. It also provides a geolocalization method for UAVs that for various reasons (e.g. weight, cost, digital footprint) cannot have GPS or equivalent systems installed. MCL uses a particle filter to determine the UAVs position. However as shown in [2], this is vulnerable to seasonal and environmental changes, as the images captured by the UAV will have major variations compared to the satellite photos its comparing the captured images to. To deal with this issue and make it robust across seasons, weather and lighting we suggest an approach using deep learning to pre-process the captured images, optimizing them for MCL. We use an implementation of AdapNet: Adaptive Semantic Segmentation in Adverse Environmental Conditions [3] to extract topographical features invariant to environmental changes.
 
 Videre:
